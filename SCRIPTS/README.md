@@ -1,1 +1,1 @@
-This file contains all scripts for the project. 
+This folder contains all scripts for the project. 
