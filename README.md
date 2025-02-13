@@ -38,3 +38,13 @@ All scripts and dependencies should run smoothly across these platforms. Make su
 ## Section 2: A Map of the Repository
 
 This section provides an overview of the repository's structure, listing all folders and files along with their descriptions.
+
+## Project Directory Structure
+The following tree diagram illustrates the hierarchy of folders and subfolders in the project:
+(need to write it more later) 
+
+## Section 3: Introductions for reproducing results 
+
+This section provides detailed step-by-step instructions to reproduce our results, including data collection, preprocessing, sentiment analysis, and model training. Follow these steps carefully to ensure a successful replication of our study.
+
+
