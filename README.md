@@ -6,10 +6,10 @@ This project utilizes **Python** and **R** for sentiment analysis on movie revie
 - **Python**: Used for sentiment analysis, feature engineering, and machine learning modeling.
 - **R**: Used for data scraping and preprocessing.
 
-## Required Add-On Packages
+### Required Add-On Packages
 Before running the scripts, install the following dependencies.
 
-## Python Dependencies
+### Python Dependencies
 Ensure you have **Python 3.9+** installed. Required packages include:
 
 - **Data Handling & Analysis:** `pandas`, `numpy`
@@ -19,7 +19,7 @@ Ensure you have **Python 3.9+** installed. Required packages include:
 - **Statistical Modeling:** `statsmodels`
 - **Utility & Web Scraping:** `requests`, `beautifulsoup4`
 
-## R Dependencies
+### R Dependencies
 Ensure you have **R 4.0+** installed. Required packages include:
 
 Web Scraping & Data Wrangling: tidyverse, rvest, dplyr
@@ -27,7 +27,7 @@ Web Scraping & Data Wrangling: tidyverse, rvest, dplyr
 To install them in R, run:
 install.packages(c("tidyverse", "rvest", "dplyr"))
 
-## Platform Compatibility
+### Platform Compatibility
 This project is compatible with the following operating systems:
 
 - **Windows**
@@ -39,12 +39,13 @@ All scripts and dependencies should run smoothly across these platforms. Make su
 
 This section provides an overview of the repository's structure, listing all folders and files along with their descriptions.
 
-## Project Directory Structure
+### Project Directory Structure
 The following tree diagram illustrates the hierarchy of folders and subfolders in the project:
 (need to write it more later) 
 
 ## Section 3: Introductions for reproducing results 
 
 This section provides detailed step-by-step instructions to reproduce our results, including data collection, preprocessing, sentiment analysis, and model training. Follow these steps carefully to ensure a successful replication of our study.
+
 
 
