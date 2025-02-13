@@ -65,18 +65,18 @@ install.packages(c("tidyverse", "rvest", "dplyr"))
 ### Step 3: Data Collection
 Use the provided dataset(movie_data_final.csv) under DATA/ folder on Github. 
 
-## Step 4: Sentiment Analysis
+## Step 4: Data Processing 
 Next, analyze the sentiment of each review using VADER sentiment scoring.
 
-## Step 5: Data Processing
+## Step 5: Sentiment Analysis
 
 ## Step 6: Train the Machine Learning Model
 Train XGBoost model for box office prediction. 
 
-## Step 7: Generate Visualizations 
+## Step 7: Generate Visualizations
 
-## Step 8: Evaluate Model Performance
+## Step 8: Hypothesis Testing with Regression Models 
+
+
+## Step 9: Evaluate Model Performacne
 Check how well our models performed by viewing the evaluation metrics: 
-
-
-
