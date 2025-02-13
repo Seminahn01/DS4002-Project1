@@ -62,21 +62,18 @@ pip install pandas numpy matplotlib seaborn nltk scikit-learn xgboost statsmodel
 Open R and install the required packages:
 install.packages(c("tidyverse", "rvest", "dplyr"))
 
-### Step 3: Data Collection
+### Step 3: Data Collection & Processing
 Use the provided dataset(movie_data_final.csv) under DATA/ folder on Github. 
 
-## Step 4: Data Processing 
+### Step 4: Sentiment Analysis 
 Next, analyze the sentiment of each review using VADER sentiment scoring.
 
-## Step 5: Sentiment Analysis
+### Step 5: Train the Machine Learning Model
 
-## Step 6: Train the Machine Learning Model
+### Step 6: Generate Visualizations
 Train XGBoost model for box office prediction. 
 
-## Step 7: Generate Visualizations
+### Step 7: Hypothesis Testing with Regression Models
 
-## Step 8: Hypothesis Testing with Regression Models 
-
-
-## Step 9: Evaluate Model Performacne
+### Step 8: Evaluate Model Performance 
 Check how well our models performed by viewing the evaluation metrics: 
