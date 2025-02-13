@@ -2,7 +2,7 @@
 
 This project utilizes **Python** and **R** for sentiment analysis on movie reviews and predicting box office revenue. Below is a detailed breakdown of the software, required dependencies, and platform compatibility.
 
- ## Software Used
+ ### Software Used
 - **Python**: Used for sentiment analysis, feature engineering, and machine learning modeling.
 - **R**: Used for data scraping and preprocessing.
 
