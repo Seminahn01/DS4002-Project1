@@ -71,6 +71,8 @@ The following tree diagram illustrates the hierarchy of folders and subfolders i
 │       ├── regression_summary.txt
 │       └── model_evaluation_metrics.txt
 
+```plaintext
+
 ## Section 3: Introductions for Reproducing Results 
 
 This section provides detailed step-by-step instructions to reproduce our results, including data collection, preprocessing, sentiment analysis, and model training. Follow these steps carefully to ensure a successful replication of our study.
