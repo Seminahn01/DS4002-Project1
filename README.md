@@ -90,17 +90,33 @@ Open R and install the required packages:
 install.packages(c("tidyverse", "rvest", "dplyr"))
 
 ### Step 3: Data Collection & Processing
-Use the Reviews Data document in the DATA/ folder on Github to access the dataset (movie_reviews.csv). Download this dataset and use the first script (01_data_script1.R) in the SCRIPTS/ folder to create movie_data_final.csv. Alternatively, simply download movie_data_final.csv from the DATA/ folder. 
+Use the Reviews Data document in the DATA/ folder on Github to access the dataset (movie_reviews.csv). Download this dataset and use the first script (01_data_script1.R) in the SCRIPTS/ folder to create movie_data_final.csv. 
+
+Alternatively, simply download movie_data_final.csv from the DATA/ folder. 
 
 ### Step 4: Sentiment Analysis 
-Next, analyze the sentiment of each review in the movie_data_final.csv dataset using VADER sentiment scoring. The second script (02_sentiment_analysis.py) in the SCRIPTS/ folder can be used to do this. 
+Next, Python will be used for sentiment analysis. The VADER (Valence Aware Dictionary and sEntiment Reasoner) package will be employed to determine the sentiment score of movie reviews found in the movie_data_final.csv dataset. 
+
+The second script (02_sentiment_analysis.py) in the SCRIPTS/ folder can be used to do this. 
 
 ### Step 5: Train the Machine Learning Model
-script 3
+Train an XGBoost model for box office prediction. The first half of the third script (03_model_training.py) in the SCRIPTS/ folder can be used to do this. 
+
 ### Step 6: Generate Visualizations
-Train XGBoost model for box office prediction. 
-script 3
+Create visualizations based on the XGBoost model predictions. The second half of the third script (03_model_training.py) in the SCRIPTS/ folder can be used to do this. 
+
 ### Step 7: Hypothesis Testing with Regression Models
+Two hypotheses will be tested using regression modeling:
+
+    * **Hypothesis 1 (Sentiment Score vs. Lifetime Gross Revenue):**
+        * **H0:** There is no relationship between sentiment score and lifetime gross revenue.
+        * **H1:** Movies with higher sentiment scores will have higher lifetime gross revenue.
+
+    * **Hypothesis 2 (Review Length vs. Lifetime Gross Revenue):**
+        * **H0:** There is no relationship between the length of review and lifetime gross revenue.
+        * **H1:** Longer reviews will correlate with higher lifetime gross revenue.
+
+The fourth script (04_hypothesis_testing.py) in the SCRIPTS/ folder can be used to do regression modeling. The results printed will include the p-values which can be used to make hypothesis testing decisions. 
 
 ### Step 8: Evaluate Model Performance 
-Check how well our models performed by viewing the evaluation metrics: script 4
+Identify how well our models performed by creating and viewing the evaluation metrics. The fifth script (05_evaluation_metrics.py) in the SCRIPTS/ folder can be used to do this.
