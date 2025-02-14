@@ -109,13 +109,13 @@ Create visualizations based on the XGBoost model predictions. The second half of
 ### Step 7: Hypothesis Testing with Regression Models
 Two hypotheses will be tested using regression modeling:
 
-    * Hypothesis 1 (Sentiment Score vs. Lifetime Gross Revenue):**
-        * **H0:** There is no relationship between sentiment score and lifetime gross revenue.
-        * **H1:** Movies with higher sentiment scores will have higher lifetime gross revenue.
+    * Hypothesis 1 (Sentiment Score vs. Lifetime Gross Revenue):
+        * H0: There is no relationship between sentiment score and lifetime gross revenue.
+        * H1: Movies with higher sentiment scores will have higher lifetime gross revenue.
 
-    * **Hypothesis 2 (Review Length vs. Lifetime Gross Revenue):**
-        * **H0:** There is no relationship between the length of review and lifetime gross revenue.
-        * **H1:** Longer reviews will correlate with higher lifetime gross revenue.
+    * Hypothesis 2 (Review Length vs. Lifetime Gross Revenue):
+        * H0: There is no relationship between the length of review and lifetime gross revenue.
+        * H1: Longer reviews will correlate with higher lifetime gross revenue.
 
 The fourth script (04_hypothesis_testing.py) in the SCRIPTS/ folder can be used to do regression modeling. The results printed will include the p-values which can be used to make hypothesis testing decisions. 
 
