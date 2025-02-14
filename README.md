@@ -41,7 +41,33 @@ This section provides an overview of the repository's structure, listing all fol
 
 ### Project Directory Structure
 The following tree diagram illustrates the hierarchy of folders and subfolders in the project:
-(need to write it more later) 
+
+├── README.md               # Project overview and instructions
+├── LICENSE.md              # Terms for using and citing this repository
+│
+├── SCRIPTS/                # Contains all scripts used for data analysis
+│   ├── 01_data_script1.R        # Data collection and processing 
+│   ├── 02_sentiment_analysis.py   # Performs sentiment analysis on reviews
+│   ├── 03_model_training.py       # Runs XGBoost models
+│   └── 04_evaluation_metrics.py      # Computes model performance metrics
+│
+├── DATA/                   # Stores datasets used in the project
+│   ├── movie_data_initial.csv          # Raw movie review dataset from Zenodo
+│   ├── movie_data_final.csv       # Processed dataset (merged reviews & revenue)
+│   ├── ReivewsData.md            # Access to movie_rievew.csv
+│   └── Data_Appendix.pdf         # Detailed data documentation
+│
+├── OUTPUT/                 # Stores results generated from analysis
+│   ├── sentiment_analysis_results.csv  # Sentiment scores for each review
+│   ├── box_office_predictions.csv      # Predicted vs. actual revenue
+│   ├── plots/
+│   │   ├── sentiment_vs_revenue.png   # Sentiment correlation with revenue
+│   │   ├── review_length_vs_revenue.png # Review length impact on revenue
+│   └── model_results/
+│       ├── random_forest_results.csv
+│       ├── xgboost_results.csv
+│       ├── regression_summary.txt
+│       └── model_evaluation_metrics.txt
 
 ## Section 3: Introductions for Reproducing Results 
 
