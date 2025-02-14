@@ -56,7 +56,7 @@ The following tree diagram illustrates the hierarchy of folders and subfolders i
 ├── DATA/                   # Stores datasets used in the project
 │   ├── movie_data_initial.csv          # Raw movie review dataset from Zenodo
 │   ├── movie_data_final.csv       # Processed dataset (merged reviews & revenue)
-│   ├── ReivewsData.md            # Access to movie_rievew.csv
+│   ├── ReivewsData.md            # Access to movie_reviews.csv
 │   └── Data_Appendix.pdf         # Detailed data documentation
 │
 ├── OUTPUT/                 # Stores results generated from analysis
@@ -93,14 +93,14 @@ install.packages(c("tidyverse", "rvest", "dplyr"))
 Use the Reviews Data document in the DATA/ folder on Github to access the dataset (movie_reviews.csv). Download this dataset and use the first script (01_data_script1.R) in the SCRIPTS/ folder to create movie_data_final.csv. Alternatively, simply download movie_data_final.csv from the DATA/ folder. 
 
 ### Step 4: Sentiment Analysis 
-Next, analyze the sentiment of each review in the movie_data_final.csv dataset using VADER sentiment scoring. The secomd script (02_sentiment_analysis.py) in the SCRIPTS/ folder can be used to do this. 
+Next, analyze the sentiment of each review in the movie_data_final.csv dataset using VADER sentiment scoring. The second script (02_sentiment_analysis.py) in the SCRIPTS/ folder can be used to do this. 
 
 ### Step 5: Train the Machine Learning Model
-
+script 3
 ### Step 6: Generate Visualizations
 Train XGBoost model for box office prediction. 
-
+script 3
 ### Step 7: Hypothesis Testing with Regression Models
 
 ### Step 8: Evaluate Model Performance 
-Check how well our models performed by viewing the evaluation metrics: 
+Check how well our models performed by viewing the evaluation metrics: script 4
