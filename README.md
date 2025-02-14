@@ -42,6 +42,8 @@ This section provides an overview of the repository's structure, listing all fol
 ### Project Directory Structure
 The following tree diagram illustrates the hierarchy of folders and subfolders in the project:
 
+```plaintext
+
 ├── README.md               # Project overview and instructions
 ├── LICENSE.md              # Terms for using and citing this repository
 │
