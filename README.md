@@ -51,12 +51,13 @@ The following tree diagram illustrates the hierarchy of folders and subfolders i
 │   ├── 01_data_script1.R        # Data collection and processing 
 │   ├── 02_sentiment_analysis.py   # Performs sentiment analysis on reviews
 │   ├── 03_model_training.py       # Runs XGBoost models
-│   └── 04_evaluation_metrics.py      # Computes model performance metrics
+│   ├── 04_hypothesis_testing.py       # Runs regression models for hypothesis testing
+│   └── 05_evaluation_metrics.py      # Computes model performance metrics
 │
 ├── DATA/                   # Stores datasets used in the project
-│   ├── movie_data_initial.csv          # Raw movie review dataset from Zenodo
+│   ├── movie_data_initial.csv          # Raw dataset (merged reviews & revenue) 
 │   ├── movie_data_final.csv       # Processed dataset (merged reviews & revenue)
-│   ├── ReivewsData.md            # Access to movie_reviews.csv
+│   ├── ReivewsData.md            # Access to raw movie review dataset from Zenodo
 │   └── Data_Appendix.pdf         # Detailed data documentation
 │
 ├── OUTPUT/                 # Stores results generated from analysis
@@ -108,7 +109,7 @@ Create visualizations based on the XGBoost model predictions. The second half of
 ### Step 7: Hypothesis Testing with Regression Models
 Two hypotheses will be tested using regression modeling:
 
-    * **Hypothesis 1 (Sentiment Score vs. Lifetime Gross Revenue):**
+    * Hypothesis 1 (Sentiment Score vs. Lifetime Gross Revenue):**
         * **H0:** There is no relationship between sentiment score and lifetime gross revenue.
         * **H1:** Movies with higher sentiment scores will have higher lifetime gross revenue.
 
