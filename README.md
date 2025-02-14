@@ -61,15 +61,12 @@ The following tree diagram illustrates the hierarchy of folders and subfolders i
 │
 ├── OUTPUT/                 # Stores results generated from analysis
 │   ├── sentiment_analysis_results.csv  # Sentiment scores for each review
-│   ├── box_office_predictions.csv      # Predicted vs. actual revenue
 │   ├── plots/
 │   │   ├── sentiment_vs_revenue.png   # Sentiment correlation with revenue
 │   │   ├── review_length_vs_revenue.png # Review length impact on revenue
 │   └── model_results/
-│       ├── random_forest_results.csv
-│       ├── xgboost_results.csv
 │       ├── regression_summary.txt
-│       └── model_evaluation_metrics.txt
+│       └── model_evaluation_metrics.csv
 
 ```
 
