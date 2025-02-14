@@ -90,10 +90,10 @@ Open R and install the required packages:
 install.packages(c("tidyverse", "rvest", "dplyr"))
 
 ### Step 3: Data Collection & Processing
-Use the provided dataset(movie_data_final.csv) under DATA/ folder on Github. 
+Use the Reviews Data document in the DATA/ folder on Github to access the dataset (movie_reviews.csv). Download this dataset and use the first script (01_data_script1.R) in the SCRIPTS/ folder to create movie_data_final.csv. Alternatively, simply download movie_data_final.csv from the DATA/ folder. 
 
 ### Step 4: Sentiment Analysis 
-Next, analyze the sentiment of each review using VADER sentiment scoring.
+Next, analyze the sentiment of each review in the movie_data_final.csv dataset using VADER sentiment scoring. The secomd script (02_sentiment_analysis.py) in the SCRIPTS/ folder can be used to do this. 
 
 ### Step 5: Train the Machine Learning Model
 
